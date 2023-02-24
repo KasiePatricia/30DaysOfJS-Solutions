@@ -239,7 +239,7 @@ let currentYear = new Date().getFullYear();
 let currentAge = currentYear - birthyear;
 console.log(currentAge);
 
-currentAge >= 18 ? console.log(`You are ${currentAge}. You are old enough to drive.`) : console.log(`You are ${currentAge}. You will be allowed to drive after ${18 - currentAge} years.`); 
+currentAge >= 18 ? console.log(`You are ${currentAge}. You are old enough to drive.`) : console.log(`You are ${currentAge}. You will be allowed to drive after ${18 - currentAge} year(s).`); 
 
 /* 14. Write a script that prompt the user to enter number of years. Calculate the number of seconds a person can live. Assume some one lives just hundred years
 
